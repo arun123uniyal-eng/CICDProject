@@ -30,4 +30,4 @@ jobs:
 
       - name: Step 5 - Build Docker Image (CD Preparation)
         run: |
-          docker build -t cicdproject:latest .
+          docker build -t cicdproject:latest
